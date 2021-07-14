@@ -165,3 +165,6 @@ STATICFILES_DIRS = [
     # '/Users/benjaminwu/Desktop/kras_project/mysite/mysite/static'
 ]
 django_heroku.settings(locals())
+
+
+CSP_FRAME_ANCESTORS = ["*"]
