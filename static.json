@@ -1,5 +1,7 @@
-"headers": {
-  "/**": {
-    "Content-Security-Policy": frame-ancestors *;"
+{
+  "headers": {
+    "/**": {
+      "Content-Security-Policy": "frame-ancestors *;"
+    }
   }
 }
